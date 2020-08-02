@@ -1,0 +1,17 @@
+html, body {
+	font-family: 'Recursive', sans-serif;
+	height: 100%;
+}
+.dsm-logo {
+	height: 100%;
+	background-image: url("dsm.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	transform-style: preserve-3d;
+}
+.title {
+	transform: translateZ(10px);
+	font-weight: 700;
+	z-index: 5;
+	top: 50%;
+}
