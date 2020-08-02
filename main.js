@@ -1,5 +1,5 @@
 $('.dsm-logo').tilt({
     glare: true,
-    maxGlare: .5
+    maxGlare: .35
 });
 bodyScrollLock.disableBodyScroll(document.querySelector('body'));
