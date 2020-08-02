@@ -1,6 +1,6 @@
 html, body {
 	font-family: 'Recursive', sans-serif;
-	height: 100%;
+	height: 90%
 }
 .dsm-logo {
 	height: 100%;
@@ -10,8 +10,19 @@ html, body {
 	transform-style: preserve-3d;
 }
 .title {
-	transform: translateZ(10px);
 	font-weight: 700;
-	z-index: 5;
-	top: 50%;
+	margin: 0;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.subtitle {
+	color: darkslategray;
+	font-weight: 400;
+	margin: 0;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
